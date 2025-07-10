@@ -155,7 +155,7 @@ When microphone usage is detected:
 ### Building from Source
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/micguard.git
+git clone https://github.com/Ince88/micguard.git
 
 # Open in Android Studio
 # Sync Gradle files

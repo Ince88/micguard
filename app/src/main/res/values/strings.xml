@@ -1,0 +1,88 @@
+<resources>
+    <string name="app_name">MicGuard</string>
+    <string name="accessibility_service_description">MicGuard monitors microphone usage to protect your privacy. This service detects when apps access your microphone and notifies you.</string>
+    
+    <!-- Main Screen -->
+    <string name="main_title">MicGuard</string>
+    <string name="main_subtitle">Protect Your Privacy</string>
+    <string name="status_active">Active</string>
+    <string name="status_inactive">Inactive</string>
+    <string name="monitoring_status">Monitoring Status</string>
+    <string name="apps_using_mic">Apps Using Microphone</string>
+    <string name="settings">Settings</string>
+    <string name="enable_monitoring">Enable Monitoring</string>
+    <string name="disable_monitoring">Disable Monitoring</string>
+    
+    <!-- App List -->
+    <string name="app_list_title">Installed Apps</string>
+    <string name="app_list_subtitle">Select apps to monitor</string>
+    <string name="no_apps_found">No apps found</string>
+    <string name="search_apps">Search apps...</string>
+    <string name="all_apps">All Apps</string>
+    <string name="monitored_apps">Monitored Apps</string>
+    <string name="auto_add_mic_apps">Auto-add apps with microphone permission</string>
+    
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="notification_settings">Notification Settings</string>
+    <string name="enable_notifications">Enable Notifications</string>
+    <string name="auto_start">Auto-start on boot</string>
+    <string name="accessibility_permission">Accessibility Permission</string>
+    <string name="usage_stats_permission">Usage Stats Permission</string>
+    <string name="grant_permission">Grant Permission</string>
+    <string name="permission_required">Permission Required</string>
+    <string name="permission_description">MicGuard needs accessibility and usage stats permissions to monitor microphone usage.</string>
+    
+    <!-- Notifications -->
+    <string name="notification_channel_name">MicGuard Alerts</string>
+    <string name="notification_channel_description">Notifications when apps use microphone</string>
+    <string name="notification_title">Microphone Active</string>
+    <string name="notification_text">%1$s is using your microphone</string>
+    <string name="notification_text_generic">An app is using your microphone</string>
+    <string name="notification_ongoing">Ongoing microphone usage detected</string>
+    
+    <!-- Permissions -->
+    <string name="permission_accessibility_title">Accessibility Permission</string>
+    <string name="permission_accessibility_message">MicGuard needs accessibility permission to monitor microphone usage. Please enable it in Settings > Accessibility > MicGuard. Tap the toggle switch next to MicGuard to enable the service.</string>
+    <string name="permission_usage_stats_title">Usage Stats Permission</string>
+    <string name="permission_usage_stats_message">MicGuard needs usage stats permission to detect which apps are using the microphone. Please enable it in Settings > Apps > Special app access > Usage access > MicGuard.</string>
+    
+    <!-- Onboarding -->
+    <string name="onboarding_title">Welcome to MicGuard</string>
+    <string name="onboarding_subtitle">Protect your privacy from unwanted microphone access</string>
+    <string name="onboarding_step1_title">Monitor Microphone</string>
+    <string name="onboarding_step1_description">Detect when apps access your microphone in real-time</string>
+    <string name="onboarding_step2_title">Smart Notifications</string>
+    <string name="onboarding_step2_description">Get notified only for apps you choose to monitor</string>
+    <string name="onboarding_step3_title">Privacy Control</string>
+    <string name="onboarding_step3_description">Take control of your device\'s microphone access</string>
+    <string name="get_started">Get Started</string>
+    <string name="skip">Skip</string>
+    <string name="next">Next</string>
+    
+    <!-- Actions -->
+    <string name="action_allow">Allow</string>
+    <string name="action_block">Block</string>
+    <string name="action_ignore">Ignore</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_close">Close</string>
+    
+    <!-- Status -->
+    <string name="status_monitoring">Monitoring microphone usage...</string>
+    <string name="status_no_permissions">Permissions required</string>
+    <string name="status_service_disabled">Service disabled</string>
+    <string name="status_ready">Ready to monitor</string>
+    
+    <!-- Support/Tip Jar -->
+    <string name="tip_jar">Tip Jar</string>
+    <string name="support_developer_title">Support the Developer</string>
+    <string name="support_developer_subtitle">Help keep MicGuard free and awesome!</string>
+    <string name="support_description">Your support helps maintain and improve MicGuard. Every tip is greatly appreciated!</string>
+    <string name="coffee_tip">☕ Buy me a coffee</string>
+    <string name="lunch_tip">🍕 Grab me lunch</string>
+    <string name="hero_tip">🛡️ Become a Privacy Hero</string>
+    <string name="tip_thank_you">Thank you for your support! 🎉</string>
+    <string name="tip_error">Unable to process tip. Please try again.</string>
+    <string name="tip_pending">Processing your tip...</string>
+    <string name="billing_unavailable">Billing service unavailable</string>
+</resources>
